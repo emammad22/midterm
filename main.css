@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1550px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+/* header css begin */
+
+.header .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-inner .cart{
+    position: relative;
+}
+
+.header-inner .cart button {
+    background: none;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    
+}
+
+.cart .quantity{
+    position:absolute;
+    top: 25px;
+    right: 30px;
+    font-size: 13px;
+}
+
+.cart button .fa-solid {
+    font-size: 22px;
+}
+/* header css end */
+/* main css begin */
+.main .main-inner .products-list{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 30px;
+}
+/* main css end */
